@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# markup build output
+*.html
+
+#personal file
+*.ini
+*.dropbox
