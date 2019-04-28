@@ -44,13 +44,15 @@
 ## 3.1. Prediction
 > value function을 구하는 과정
 ### Monte-Carlo
-> 무작위로 무엇인가를 해본다. 
+> 무작위로 무엇인가를 해보는 것(샘플링)을 통한 평균값으로 기대값을 대체
+> episode 마다 update 
 ### Temporal-Difference 
-> episode마다가 아니라 time-step마다 업데이트를 한다.
+> episode마다가 아니라 time-step마다 update를 한다.
 ## 3.2. Control
 > prediction과 함께 policy를 발전시키는 과정  
 ## SARSA
 > on-policy
+> 
 ## Q-learning
 > off-policy
 
