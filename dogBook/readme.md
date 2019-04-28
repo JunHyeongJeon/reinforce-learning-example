@@ -35,18 +35,24 @@
 
 > *하지만, 계산 복잡도가 크고, 차원의 저주에 빠진며, 환경에 대한 완벽한 정보가 필요하다.*
 
-
-- policy iteration
-	: 구한 value function을 통해 최대의 reward을 얻는 action을 선택
+- policy iteration : 구한 value function을 통해 최대의 reward을 얻는 action을 선택
 	- policy evaluation
 	- policy improvement
 - value iteration : 최적의 policy를 가정하고 순차적 action을 결정  
 
 # 3. Reinforcement Learning
-## Monte-Carlo Prediction
-## Temporal-Difference Prediction
+## 3.1. Prediction
+> value function을 구하는 과정
+### Monte-Carlo
+> 무작위로 무엇인가를 해본다. 
+### Temporal-Difference 
+> episode마다가 아니라 time-step마다 업데이트를 한다.
+## 3.2. Control
+> prediction과 함께 policy를 발전시키는 과정  
 ## SARSA
+> on-policy
 ## Q-learning
+> off-policy
 
 # 4. Deep Reinforcement Learning
 
