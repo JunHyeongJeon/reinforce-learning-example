@@ -1,9 +1,4 @@
-<html><script src="//yihui.name/js/math-code.js"></script>
-<!-- Just one possible MathJax CDN below. You may use others. -->
-<script async
-  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-</html>
+
 # 1. MDP & Bellman Equation
 
 ## MDP 
@@ -65,13 +60,5 @@
 # 4. Deep Reinforcement Learning
 
 # 5. Example
-test
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-Hi `$z = x + y$`.
-
-`$$a^2 + b^2 = c^2$$`
-
-`$$\begin{vmatrix}a & b\\
-c & d
-\end{vmatrix}=ad-bc$$`
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
