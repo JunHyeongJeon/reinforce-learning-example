@@ -59,3 +59,5 @@
 # 4. Deep Reinforcement Learning
 
 # 5. Example
+test
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
