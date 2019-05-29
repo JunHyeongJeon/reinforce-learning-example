@@ -109,3 +109,6 @@ venv.bak/
 #personal file
 *.ini
 *.dropbox
+
+#vscode
+.vscode

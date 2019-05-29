@@ -42,14 +42,17 @@
 - value iteration : 최적의 policy를 가정하고 순차적 action을 결정  
 
 # 3. Reinforcement Learning
-## 3.1. Prediction
-> value function을 구하는 과정
+## 3.1. Model-free Prediction
+> Model-free : 모델을 사용하지 않는, 환경에 대해 모든 것을 알지 못하는 상태
+> Prediction : value function을 구하는 과정
+
+> => MDP를 모르는 (환경에 대한 사전 지식이 없는) 상태에서 환경과 상호작용을 하며 value function을 추정해 나가는 것
 ### Monte-Carlo
 > 무작위로 무엇인가를 해보는 것(샘플링)을 통한 평균값으로 기대값을 대체
 > episode 마다 update 
 ### Temporal-Difference 
 > episode마다가 아니라 time-step마다 update를 한다.
-## 3.2. Control
+## 3.2. Model-free Control
 > prediction과 함께 policy를 발전시키는 과정  
 ## SARSA
 > on-policy
@@ -61,4 +64,4 @@
 
 # 5. Example
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}"/>
